@@ -9,9 +9,15 @@ public/wp-config.php
 public/wp
 
 # Content
-public/content/*
-!public/content/themes
-!public/content/mu-plugins
+public/content/upgrade
+public/content/cache
+public/content/plugins/*
+!public/content/plugins/.gitkeep
+public/content/uploads/*
+!public/content/uploads/.gitkeep
 
 # Ignore the default WP themes
 public/content/themes/twenty*
+
+# Misc.
+.DS_Store
