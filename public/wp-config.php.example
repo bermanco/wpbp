@@ -91,6 +91,9 @@ define('WP_CONTENT_URL', WP_HOME . '/content');
 
 define('WP_CONTENT_DIR', dirname(__FILE__) . '/content');
 
+/** Disable the code editor */
+define( 'DISALLOW_FILE_EDIT', true );
+
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
 
