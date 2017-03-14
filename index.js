@@ -39,3 +39,8 @@ if (config.plugins.optional.length > 0){
 		shell.exec(`wp plugin install ${plugin}`);
 	});
 }
+
+// Activate theme
+if (config.theme.name.length > 0){
+	shell.exec(`wp theme activate ${config.theme.name}`);
+}

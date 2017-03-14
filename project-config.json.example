@@ -1,6 +1,7 @@
 {
 	"theme": {
-		"directory": "./public/app/themes/THEME_DIRECTORY"
+		"name": "THEME_SLUG",
+		"path": "./public/app/themes/THEME_DIRECTORY"
 	},
 	"plugins": {
 		"required": [
