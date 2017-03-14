@@ -1,0 +1,14 @@
+{
+	"theme": {
+		"directory": "./public/app/themes/THEME_DIRECTORY"
+	},
+	"plugins": {
+		"required": [
+			"posts-to-posts"
+		],
+		"optional": [
+			"wp-fastest-cache",
+			"easy-wp-smtp"
+		]
+	}
+}

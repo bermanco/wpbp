@@ -1,0 +1,17 @@
+# Node
+node_modules
+
+# Site-specific Config
+public/.htaccess
+public/wp-config.php
+
+# Wordpress Core
+public/wp
+
+# Content
+public/content/*
+!public/content/themes
+!public/content/mu-plugins
+
+# Ignore the default WP themes
+public/content/themes/twenty*
